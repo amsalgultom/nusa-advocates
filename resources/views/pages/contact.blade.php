@@ -1,0 +1,76 @@
+@extends('layout-views.app')
+@section('title', 'Nusa Advocates | '. __('messages.contact_us'))
+
+@section('content')
+<section id="hero">
+  <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="hero-carousel-indicators"></div>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active" style="background-image: url({{ asset('img/banner/nusa_hero_1.jpg') }})">
+        <div class="carousel-container">
+          <div class="container">
+            <h2>@lang('messages.contact_us')</h2>
+            <p>
+            @lang('messages.short_contact_us')
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Hero -->
+
+<main id="main">
+  <div class="img-bg1">
+    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
+  </div>
+  <div class="img-bg2">
+    <img src="{{ asset('img/img-view/circle-blue.png') }}" alt="">
+  </div>
+  <div class="img-bg3">
+    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
+  </div>
+  <div class="img-bg4">
+    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
+  </div>
+
+    <!-- ======= Nusa Advocates Section ======= -->
+    <section id="Nusa Advocates" class="Nusa Advocates mt-5">
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="row justify-content-center">
+                <div class="col-md-8 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2948781225546!2d106.8065393!3d-6.224795899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f190ebb77d3f%3A0xa703a92087300d95!2sSequis%20center!5e0!3m2!1sid!2sid!4v1734503955329!5m2!1sid!2sid" width="100%" height="450" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box-contact">
+                        <ul class="contact-list">
+                            <li><i class="bi bi-geo-alt mr-2 icon-contact-top"></i>Sequis Center 9th Floor, Unit 10 <br>
+                            Jl. Jenderal Sudirman No. 71 <br>
+                            Jakarta 12190, Indonesia</li>
+                            <li><i class="bi bi-envelope mr-2"></i> contact@nusaadvocates.com</li>
+                            <li class="pb-0"><i class="bi bi-telephone mr-2"></i> +62 812 xxxx xxxx</li>
+                        </ul>
+                        <!-- <div class="d-flex justify-content-center isosmed">
+                            <div class="icon-sosmed">
+                                <a href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="icon-sosmed">
+                                <a href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Nusa Advocates Section -->
+
+</main><!-- End #main -->
+@endsection

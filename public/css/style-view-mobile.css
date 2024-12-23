@@ -1,0 +1,168 @@
+@media screen and (max-width: 800px) {
+  .yellow-circle{
+    transform: translateX(330%) !important;
+    position: absolute !important;
+    bottom: 15% !important;
+  } 
+
+  .desc-title{
+    margin: 0 !important;
+  }
+
+  .switch{
+    margin-right: 10px;
+  }
+
+  .title-about{
+    line-height: 44px !important;
+    margin-top: 10px !important;
+  }
+ 
+  .right-header{
+    flex-direction: row-reverse;
+  }
+
+  .mobile-nav-toggle {
+    font-size: 40px;
+  }
+
+  .text-com-footer {
+    padding: 0;
+  }
+
+  .whatsapp-button i {
+    font-size: 35px;
+  }
+
+  .whatsapp-button{
+    width: 60px;
+    height: 60px;
+  }
+
+  .box-contact {
+    min-height: 300px;
+  }
+
+  /* .carousel-inner .carousel-item{
+    height: 60vh;
+  }
+  .carousel-inner .carousel-item .carousel-image{
+    height: 60vh;
+  } */
+
+  .icon-top::before {
+    vertical-align: 0.7em !important;
+  }
+
+  .img-franchise-center{
+    text-align: center;
+  }
+
+  .img-franchise{
+    width: 200px;
+  }
+
+  .text-hero{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+  }
+
+  .text-hero .pt-4{
+    padding-top: 0 !important;
+  }
+
+  .title-hero{
+    margin-top: 1rem !important;
+  }
+
+  .gallery-filter{
+    padding: 0;
+  }
+
+  .portfolio #portfolio-flters li {
+    padding: 0;
+  }
+
+  .portfolio #portfolio-flters li.filter-active {
+    background: unset;
+    color: #005AB2;
+  }
+
+  .ul-news{
+    margin: 0;
+  }
+
+  .img-bg2 img {
+    width: 70%;
+    top: 6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .yellow-circle{
+    transform: translateX(370%) !important;
+    position: absolute !important;
+    bottom: 16% !important;
+  } 
+}
+
+@media screen and (max-width: 900px) {
+  /* .carousel-inner .carousel-item{
+    height: 40vh;
+  }
+  .carousel-inner .carousel-item .carousel-image{
+    height: 40vh;
+  } */
+
+  .title-hero{
+    margin-top: 0 !important;
+  }
+
+  .right-header{
+    flex-direction: row-reverse;
+  }
+  .mobile-nav-toggle {
+    margin-left: 10px;
+  }
+
+  .text-hero{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+  }
+
+  .portfolio #portfolio-flters li {
+    padding: 0;
+  }
+
+  .portfolio #portfolio-flters li.filter-active {
+    background: unset;
+    color: #005AB2;
+  }
+
+  .hero-img{
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .title-hero{
+    font-size: 24px;
+  }
+
+  .desc-hero{
+    font-size: 15px;
+  }
+
+  .btn-hero{
+    font-size: 14px;
+  }
+}
