@@ -26,12 +26,12 @@
 <main id="main">
   <!-- ======= Why Us Section ======= -->
   <section id="why-us" class="why-us">
-      <div class="container-fluid" data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-5 align-items-stretch video-box hero-img" style='background-image: url({{ asset('img/banner/nusa_hero_3.jpg') }});' data-aos="zoom-in" data-aos-delay="100">
-          </div>
-          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+          <!-- <div class="col-lg-5 align-items-stretch video-box hero-img" style='background-image: url({{ asset('img/banner/nusa_hero_3.jpg') }});' data-aos="zoom-in" data-aos-delay="100">
+          </div> -->
+          <div class="col-lg-12">
           @lang('messages.desc_nusa_2')
           @lang('messages.desc_nusa_3')
           </div>
