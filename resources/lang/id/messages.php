@@ -122,7 +122,7 @@ return [
     Untuk memulai diskusi mengenai waralaba, silakan hubungi tim kemitraan khusus kami di [kontak
     email/telepon].',
 
-    'news' => 'Berita',
+    'news' => 'Berita dan Pembaruan',
     
     'title_landing' => 'KETENANGAN MENANTI DI TEMPAT PERSEMBAHAN KAMI.',
 
