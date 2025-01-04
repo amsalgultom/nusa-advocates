@@ -7,9 +7,9 @@ return [
         Guided by values of integrity, proficiency, and perseverance, the firm focuses on delivering strategic solutions and building lasting client relationships 
         to ensure long-term success.",
     'desc_nusa_2' => "<div class='content text-justify'>
-              <h3>The Firm <strong>Nusa Advocates</strong></h3>
+              <h3 class='text-left'>The Firm <strong>Nusa Advocates</strong></h3>
               <p>
-                Nusa Advocates is a premier law office based in Jakarta, Indonesia, committed to trust, professionalism, and excellence. 
+                <strong>Nusa Advocates</strong> is a premier law office based in Jakarta, Indonesia, committed to trust, professionalism, and excellence. 
                 We offer extensive expertise in corporate and commercial law, including mergers and acquisitions, energy and mining, finance, capital markets, and regulatory compliance. 
                 Combining deep legal knowledge with industry insights, we help clients navigate today’s dynamic business environment through strategies aligned with their goals. 
                 Guided by our vision to become a globally recognized, world-class law firm, we are dedicated to delivering exceptional legal services. 
