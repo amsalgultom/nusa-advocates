@@ -7,6 +7,7 @@ use App\Models\News;
 use App\Models\Gallery;
 use App\Models\Lawyer;
 use App\Models\PracticeArea;
+use Illuminate\Support\Facades\Artisan;
 
 class ViewController extends Controller
 {
@@ -109,5 +110,15 @@ class ViewController extends Controller
     public function career()
     {
         return view('pages.career');
+    }
+
+    public function generateKey()
+    {
+        try {
+            Artisan::call('key:generate');
+            return response()->json(['message' => 'Application key generated successfully']);
+        } catch (\Exception $e) {
+            return response()->json(['message' => 'Error generating key', 'error' => $e->getMessage()], 500);
+        }
     }
 }
