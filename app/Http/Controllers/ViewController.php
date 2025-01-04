@@ -135,5 +135,15 @@ class ViewController extends Controller
         }
     }
 
+    public function storageLink()
+    {
+        try {
+            Artisan::call('storage:link');
+            return response()->json(['message' => 'Storage link created successfully']);
+        } catch (\Exception $e) {
+            return response()->json(['message' => 'Error creating storage link', 'error' => $e->getMessage()], 500);
+        }
+    }
+
 
 }
