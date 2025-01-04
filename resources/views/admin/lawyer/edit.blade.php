@@ -119,14 +119,14 @@
 <script>
     $('input[name="image"]').change(function() {
         console.log('tes')
-        var maxSizeBytes = 2 * 1024 * 1024;
+        var maxSizeBytes = 10 * 1024 * 1024;
         var fileSize = this.files[0].size;
         if (fileSize > maxSizeBytes) {
             $(this).val('');
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
-                text: "File size exceeds the maximum allowed size of 2MB!",
+                text: "File size exceeds the maximum allowed size of 10MB!",
             });
         }
     });
