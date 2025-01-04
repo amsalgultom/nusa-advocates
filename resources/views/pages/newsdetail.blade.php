@@ -2,20 +2,7 @@
 @section('title', 'Nusa Advocates | '. $news[0]->title )
 
 @section('content')
-<main id="main">
-  <div class="img-bg1">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg2">
-    <img src="{{ asset('img/img-view/circle-blue.png') }}" alt="">
-  </div>
-  <div class="img-bg3">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg4">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <!-- ======= Nusa Advocates Section ======= -->
+<main id="main">  <!-- ======= Nusa Advocates Section ======= -->
   <section id="Nusa Advocates" class="Nusa Advocates">
 
     <div class="container mt-5" data-aos="fade-up">

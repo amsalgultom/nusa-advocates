@@ -24,25 +24,12 @@
 </section><!-- End Hero -->
 
 <main id="main">
-  <div class="img-bg1">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg2">
-    <img src="{{ asset('img/img-view/circle-blue.png') }}" alt="">
-  </div>
-  <div class="img-bg3">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg4">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-
   <!-- ======= Why Us Section ======= -->
   <section id="why-us" class="why-us">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url(https://technext.github.io/lawmaker/images/hero_1.jpg);' data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url({{ asset('img/banner/nusa_hero_3.jpg') }});' data-aos="zoom-in" data-aos-delay="100">
           </div>
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
           @lang('messages.desc_nusa_2')

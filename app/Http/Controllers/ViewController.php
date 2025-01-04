@@ -68,7 +68,7 @@ class ViewController extends Controller
     public function lawyer()
     {
         $lang = app()->getLocale();
-        $lawyers = Lawyer::select('name', 'level', 'description', 'image')
+        $lawyers = Lawyer::select('name', 'level', 'description', 'image', 'email')
             ->where('lang', $lang)
             ->orderBy('id', 'asc')
             ->get();
@@ -104,5 +104,10 @@ class ViewController extends Controller
     {
         $galleries = Gallery::all();
         return view('pages.gallery', compact('galleries'));
+    }
+
+    public function career()
+    {
+        return view('pages.career');
     }
 }

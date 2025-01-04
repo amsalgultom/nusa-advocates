@@ -14,6 +14,7 @@ class Lawyer extends Model
         'slug',
         'lang',
         'image',
-        'level'
+        'level',
+        'email'
     ];
 }

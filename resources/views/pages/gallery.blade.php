@@ -4,18 +4,10 @@
 @section('content')
 <main id="main">
 
-  <div class="img-bg1">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg2">
-    <img src="{{ asset('img/img-view/circle-blue.png') }}" alt="">
-  </div>
-  <div class="img-bg3">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg4">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
+  
+  
+  
+  
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
 

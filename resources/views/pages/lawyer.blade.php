@@ -9,7 +9,7 @@
   <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div id="hero-carousel-indicators"></div>
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active" style="background-image: url({{ asset('img/banner/nusa_hero_1.jpg') }})">
+      <div class="carousel-item active" style="background-image: url({{ asset('img/banner/nusa_hero_2.jpg') }})">
         <div class="carousel-container">
           <div class="container">
             <h2>@lang('messages.principal_lawyer')</h2>
@@ -24,19 +24,6 @@
 </section><!-- End Hero -->
 
 <main id="main">
-  <div class="img-bg1">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg2">
-    <img src="{{ asset('img/img-view/circle-blue.png') }}" alt="">
-  </div>
-  <div class="img-bg3">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg4">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-
   <section id="team" class="team section">
     <div class="container">
       <div class="row gy-4">
@@ -49,6 +36,11 @@
               <span>{{ $lawyer->level }}</span>
               <p class="text-justify">
                 {!! nl2br(e($lawyer->description)) !!}
+                <!-- email -->
+                @if($lawyer->email)
+                <br><br>
+                <a href="mailto:{{ $lawyer->email }}"><i class="bi bi-envelope"></i> {{ $lawyer->email }}</a>
+                @endif
               </p>
             </div>
           </div>

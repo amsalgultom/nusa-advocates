@@ -6,7 +6,8 @@
 @include('layout-views.slider')
 
 <main id="main">
-  <div class="img-bg1">
+  
+  <!-- <div class="img-bg1">
     <img src="{{ asset('img/img-view/dots.png') }}" alt="">
   </div>
   <div class="img-bg2">
@@ -17,9 +18,9 @@
   </div>
   <div class="img-bg4">
     <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
+  </div> -->
 
-  <section id="Nusa Advocates" class="Nusa Advocates">
+  <!-- <section id="Nusa Advocates" class="Nusa Advocates">
 
     <div class="container" data-aos="fade-up">
 
@@ -30,14 +31,14 @@
         </p>
       </div>
     </div>
-  </section><!-- End Nusa Advocates Section -->
+  </section> -->
 
   <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url(https://technext.github.io/lawmaker/images/hero_1.jpg);' data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url({{ asset('img/banner/nusa_hero_3.jpg') }});' data-aos="zoom-in" data-aos-delay="100">
           </div>
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
           @lang('messages.desc_nusa_2')

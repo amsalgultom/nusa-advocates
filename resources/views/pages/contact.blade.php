@@ -6,7 +6,7 @@
   <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div id="hero-carousel-indicators"></div>
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active" style="background-image: url({{ asset('img/banner/nusa_hero_1.jpg') }})">
+      <div class="carousel-item active" style="background-image: url({{ asset('img/banner/nusa_hero_2.jpg') }})">
         <div class="carousel-container">
           <div class="container">
             <h2>@lang('messages.contact_us')</h2>
@@ -21,19 +21,6 @@
 </section><!-- End Hero -->
 
 <main id="main">
-  <div class="img-bg1">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg2">
-    <img src="{{ asset('img/img-view/circle-blue.png') }}" alt="">
-  </div>
-  <div class="img-bg3">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-  <div class="img-bg4">
-    <img src="{{ asset('img/img-view/dots.png') }}" alt="">
-  </div>
-
     <!-- ======= Nusa Advocates Section ======= -->
     <section id="Nusa Advocates" class="Nusa Advocates mt-5">
 
@@ -47,12 +34,14 @@
                 </div>
                 <div class="col-md-4 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box-contact">
+                    <p>For expert legal solutions, please contact us at:</p>
                         <ul class="contact-list">
                             <li><i class="bi bi-geo-alt mr-2 icon-contact-top"></i>Sequis Center 9th Floor, Unit 10 <br>
                             Jl. Jenderal Sudirman No. 71 <br>
                             Jakarta 12190, Indonesia</li>
-                            <li><i class="bi bi-envelope mr-2"></i> contact@nusaadvocates.com</li>
-                            <li class="pb-0"><i class="bi bi-telephone mr-2"></i> +62 812 xxxx xxxx</li>
+                            <li><i class="bi bi-telephone mr-2"></i> +62 21 2526587</li>
+                              <li><i class="bi bi-envelope mr-2"></i> nusa@nusaadvocates.com</li>
+                              <li><i class="bi bi-globe mr-2"></i> www.nusaadvocates.com</li>
                         </ul>
                         <!-- <div class="d-flex justify-content-center isosmed">
                             <div class="icon-sosmed">

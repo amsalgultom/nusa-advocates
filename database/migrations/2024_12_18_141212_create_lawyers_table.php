@@ -18,6 +18,7 @@ return new class extends Migration
             $table->text('description');
             $table->text('image')->nullable();
             $table->string('slug')->nullable();
+            $table->string('email')->nullable();
             $table->enum('lang', ['en', 'id'])->default('en');
             $table->timestamps();
         });

@@ -39,6 +39,7 @@ Route::middleware(['setLocale'])->group(function () {
     Route::get('/{lang}/news', [ViewController::class, 'news'])->name('news');
     Route::get('/{lang}/news/{slug}', [ViewController::class, 'newsdetail'])->name('newsdetail');
     Route::get('/{lang}/gallery', [ViewController::class, 'gallery'])->name('gallery');
+    Route::get('/{lang}/career', [ViewController::class, 'career'])->name('career');
 });
 
 Route::controller(LoginRegisterController::class)->group(function () {

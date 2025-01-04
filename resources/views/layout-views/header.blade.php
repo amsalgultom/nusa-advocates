@@ -17,6 +17,7 @@
           <li><a class="nav-link scrollto {{ (request()->segment(2) == 'practice_area') ? 'active' : '' }}" href="{{ route('practice_area', ['lang' => app()->getLocale()]) }}">@lang('messages.practice_area')</a></li>
           <li><a class="nav-link scrollto {{ (request()->segment(2) == 'principal_lawyer') ? 'active' : '' }}" href="{{ route('principal_lawyer', ['lang' => app()->getLocale()]) }}">@lang('messages.principal_lawyer')</a></li>
           <li><a class="nav-link scrollto {{ (request()->segment(2) == 'news') ? 'active' : '' }}" href="{{ route('news', ['lang' => app()->getLocale()]) }}">@lang('messages.news')</a></li>
+          <li><a class="nav-link scrollto {{ (request()->segment(2) == 'career' ) ? 'active' : '' }}" href="{{ route('career', ['lang' => app()->getLocale()]) }}">@lang('messages.career')</a></li>
           <li><a class="nav-link scrollto {{ (request()->segment(2) == 'contact' ) ? 'active' : '' }}" href="{{ route('contact', ['lang' => app()->getLocale()]) }}">@lang('messages.contact_us')</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

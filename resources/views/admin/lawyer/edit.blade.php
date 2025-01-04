@@ -58,8 +58,8 @@
                                         </div>
                                         <div class="col-md-5">
                                             <div class="mb-3">
-                                                <label class="form-label">Level</label>
-                                                <input type="text" name="level" class="form-control" required value="{{ $lawyer->level }}">
+                                                <label class="form-label">Email</label>
+                                                <input type="text" name="email" class="form-control" required value="{{ $lawyer->email }}">
                                             </div>
                                         </div>
                                         <div class="col-md-7">
