@@ -1,7 +1,7 @@
 <?php
 return [
     'home' => 'Beranda',
-    'nusa_advocates' => 'Advokat Nusa',
+    'nusa_advocates' => 'Nusa Advocates',
     'desc_nusa_1' => 'Nusa Advocates, suatu firma hukum yang berbasis di Jakarta, menjunjung tinggi integritas, keahlian, dan kegigihan, memberikan layanan yang unggul, membangun kepercayaan, dan memastikan kesuksesan klien jangka panjang.',
     'desc_nusa_2' => "<div class='content text-justify'>
               <h3 class='text-left'>The Firm <strong>Nusa Advocates</strong></h3>
