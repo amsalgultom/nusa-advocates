@@ -9,40 +9,34 @@ return [
     'desc_nusa_2' => "<div class='content text-justify'>
               <h3>The Firm <strong>Nusa Advocates</strong></h3>
               <p>
-                Founded on a commitment to excellence and trust, Nusa Advocates is a premier law firm based in Jakarta, Indonesia. 
-                Since its inception, the firm has been dedicated to delivering high-quality legal services tailored to meet the unique and diverse needs of clients. 
-                Nusa Advocates offers strong expertise in corporate and commercial law. 
-                We also support clients in areas such as mergers and acquisitions, finance, energy and mining, capital market, intellectual property, labor law, and regulatory 
-                compliance, ensuring they receive well-rounded counsel across various facets of the law.  <br><br>
-
-                Guided by a vision to become a world-class law firm recognized globally for excellence and innovation, 
-                Nusa Advocates is committed to helping clients achieve success through tailored strategies and the highest professional standards. 
-                We focus on a clear mission: to deliver high-quality work products that meet the highest professional standards, to provide strategic advice and solutions 
-                tailored to our clients' unique needs, and to build an international reputation as a trusted firm in the legal field. <br><br>
-
-                Our core values form the foundation of our practice:
+                Nusa Advocates is a premier law office based in Jakarta, Indonesia, committed to trust, professionalism, and excellence. 
+                We offer extensive expertise in corporate and commercial law, including mergers and acquisitions, energy and mining, finance, capital markets, and regulatory compliance. 
+                Combining deep legal knowledge with industry insights, we help clients navigate today’s dynamic business environment through strategies aligned with their goals. 
+                Guided by our vision to become a globally recognized, world-class law firm, we are dedicated to delivering exceptional legal services. 
+                Our mission is to provide high-quality, strategic solutions tailored to the unique needs of each client, earning a solid reputation in the international market.
+                <br><br>
+                We are driven by three core values:
               </p>
             </div>
 
             <div class='accordion-list'>
               <ul>
                 <li>
-                  <span>Integrity</span> Upholding the highest ethical standards to foster trust.
+                  <span>Integrity</span> We adhere to the highest ethical standards, fostering trust and accountability.
                 </li>
                 <li>
-                  <span>Proficiency:</span> Ensuring clients benefit from continuous growth and top-tier legal expertise.
+                  <span>Proficiency:</span> We deliver top-tier legal expertise through continuous learning and development.
                 </li>
                 <li>
-                  <span>Perseverance</span> Undertaking challenges with resilience and determination to achieve the best outcomes.
+                  <span>Perseverance</span> We overcome challenges with resilience and determination, striving for excellence.
                 </li>
               </ul>
             </div>",
-    'desc_nusa_3' => "<div class='content pt-2 mt-0'>
+      'desc_nusa_3' => "<div class='content pt-2 mt-0'>
             <p>
-              We bring together deep legal expertise, industry insights, and practical solutions tailored to today’s dynamic business landscape. By understanding each client’s unique goals and challenges, we craft strategies that foster growth and safeguard their interests. Our seasoned attorneys provide forward-thinking guidance in a responsive manner to help clients navigate regulatory complexities, manage risks, and seize new opportunities. To remain at the forefront of innovation, we continually invest in our team, technology, and resources, ensuring we deliver agile, effective solutions that keep pace with the ever-evolving legal environment.
-            </p>
-            <p>
-              At Nusa Advocates, we are dedicated to building lasting relationships and delivering solutions that go beyond addressing immediate needs to support our clients’ long-term success. We believe the process is as important as the result, and whether guiding clients through complex transactions or representing them in high-stakes disputes, we are committed to excellence, integrity, and exceptional client service that fosters trust and reliability.
+              At Nusa Advocates, we are committed to building lasting relationships and delivering solutions that extend beyond immediate needs to support our clients’ 
+              long-term success. We believe the process is as important as the outcome. Whether navigating complex transactions or representing clients in high-stakes disputes, 
+              we consistently uphold integrity, excellence, and exceptional client service, fostering trust and reliability at every step.
             </p>
           </div>",
 
