@@ -19,3 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/artisan/key-generate', [ViewController::class, 'generateKey']);
+Route::get('/artisan/cache', [ViewController::class, 'clearCache']);

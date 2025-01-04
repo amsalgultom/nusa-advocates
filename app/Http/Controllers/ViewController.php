@@ -121,4 +121,19 @@ class ViewController extends Controller
             return response()->json(['message' => 'Error generating key', 'error' => $e->getMessage()], 500);
         }
     }
+
+    public function clearCache()
+    {
+        try {
+            Artisan::call('cache:clear');
+            Artisan::call('config:clear');
+            Artisan::call('route:clear');
+            Artisan::call('view:clear');
+            return response()->json(['message' => 'Cache cleared successfully']);
+        } catch (\Exception $e) {
+            return response()->json(['message' => 'Error clearing cache', 'error' => $e->getMessage()], 500);
+        }
+    }
+
+
 }
