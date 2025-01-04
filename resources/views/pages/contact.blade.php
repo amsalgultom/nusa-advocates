@@ -10,9 +10,9 @@
         <div class="carousel-container">
           <div class="container">
             <h2>@lang('messages.contact_us')</h2>
-            <p>
+            <!-- <p>
             @lang('messages.short_contact_us')
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -34,8 +34,9 @@
                 </div>
                 <div class="col-md-4 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box-contact">
-                    <p>For expert legal solutions, please contact us at:</p>
+                    <p>@lang('messages.short_contact_us')</p>
                         <ul class="contact-list">
+                            <li>Nusa Advocates</li>
                             <li><i class="bi bi-geo-alt mr-2 icon-contact-top"></i>Sequis Center 9th Floor, Unit 10 <br>
                             Jl. Jenderal Sudirman No. 71 <br>
                             Jakarta 12190, Indonesia</li>

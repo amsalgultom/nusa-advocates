@@ -2,56 +2,43 @@
 return [
     'home' => 'Beranda',
     'nusa_advocates' => 'Advokat Nusa',
-    'desc_nusa_1' => 'Advokat Nusa, sebuah firma hukum yang berbasis di Jakarta, menyediakan layanan hukum yang disesuaikan di bidang hukum korporasi, keuangan, energi, kekayaan intelektual, dan kepatuhan regulasi. Berlandaskan nilai-nilai integritas, keahlian, dan ketekunan, firma ini berkomitmen memberikan solusi strategis dan membangun hubungan jangka panjang dengan klien untuk memastikan kesuksesan yang berkelanjutan.',
+    'desc_nusa_1' => 'Nusa Advocates, suatu firma hukum yang berbasis di Jakarta, menjunjung tinggi integritas, keahlian, dan kegigihan, memberikan layanan yang unggul, membangun kepercayaan, dan memastikan kesuksesan klien jangka panjang.',
     'desc_nusa_2' => "<div class='content text-justify'>
-        <h3>Tentang <strong>Advokat Nusa</strong></h3>
-        <p>
-            Berdiri dengan komitmen terhadap keunggulan dan kepercayaan, Advokat Nusa adalah firma hukum terkemuka yang berbasis di Jakarta, Indonesia. 
-            Sejak awal berdirinya, firma ini berfokus pada penyediaan layanan hukum berkualitas tinggi yang disesuaikan dengan kebutuhan unik dan beragam para klien. 
-            Advokat Nusa memiliki keahlian kuat di bidang hukum korporasi dan komersial. 
-            Kami juga mendukung klien dalam bidang-bidang seperti merger dan akuisisi, keuangan, energi dan pertambangan, pasar modal, kekayaan intelektual, hukum ketenagakerjaan, serta kepatuhan regulasi, 
-            memastikan mereka mendapatkan nasihat yang menyeluruh di berbagai aspek hukum. <br><br>
+              <h3 class='text-left'>The Firm <strong>Nusa Advocates</strong></h3>
+              <p class='mb-0'>
+                <strong>Nusa Advocates</strong> adalah kantor hukum terkemuka yang berbasis di Jakarta, Indonesia, yang berkomitmen pada kepercayaan, profesionalisme, dan keunggulan. Kami menawarkan keahlian luas dalam hukum perusahaan dan komersial, termasuk merger dan akuisisi, energi dan pertambangan, keuangan, pasar modal, serta kepatuhan peraturan. Dengan menggabungkan pengetahuan hukum yang mendalam dan wawasan industri, kami membantu klien menghadapi dinamika lingkungan usaha saat ini melalui strategi yang selaras dengan tujuan mereka.
+                Dipandu oleh visi kami untuk menjadi firma hukum kelas dunia yang diakui secara global, kami berdedikasi untuk memberikan layanan hukum yang unggul. Misi kami adalah untuk menyediakan solusi strategis berkualitas tinggi yang disesuaikan dengan kebutuhan unik setiap klien, serta membangun reputasi yang solid di pasar internasional.
+                <br><br>
+                Kami didorong oleh tiga nilai utama:
+              </p>
+            </div>
 
-            Dengan visi untuk menjadi firma hukum kelas dunia yang diakui secara global atas keunggulan dan inovasinya, 
-            Advokat Nusa berkomitmen membantu klien meraih kesuksesan melalui strategi yang disesuaikan dan standar profesional tertinggi. 
-            Kami memiliki misi yang jelas: memberikan hasil kerja berkualitas tinggi yang memenuhi standar profesional tertinggi, 
-            menyediakan nasihat dan solusi strategis yang disesuaikan dengan kebutuhan unik klien kami, 
-            serta membangun reputasi internasional sebagai firma terpercaya di bidang hukum. <br><br>
-
-            Nilai-nilai inti kami menjadi dasar praktik kami:
-        </p>
-        </div>
-
-        <div class='accordion-list'>
-        <ul>
-            <li>
-            <span>Integritas:</span> Menjunjung tinggi standar etika tertinggi untuk membangun kepercayaan.
-            </li>
-            <li>
-            <span>Keahlian:</span> Memastikan klien mendapat manfaat dari pertumbuhan berkelanjutan dan keahlian hukum terbaik.
-            </li>
-            <li>
-            <span>Ketangguhan:</span> Menghadapi tantangan dengan ketahanan dan tekad untuk mencapai hasil terbaik.
-            </li>
-        </ul>
-        </div>
-        ",
-    'desc_nusa_3' => "<div class='content pt-2 mt-0'>
-        <p>
-            Kami menghadirkan keahlian hukum yang mendalam, wawasan industri, dan solusi praktis yang disesuaikan dengan lanskap bisnis yang dinamis saat ini. Dengan memahami tujuan dan tantangan unik setiap klien, kami merancang strategi yang mendorong pertumbuhan dan melindungi kepentingan mereka. Tim pengacara berpengalaman kami memberikan panduan visioner secara responsif untuk membantu klien menghadapi kompleksitas regulasi, mengelola risiko, dan memanfaatkan peluang baru. Untuk tetap berada di garis depan inovasi, kami terus berinvestasi dalam tim, teknologi, dan sumber daya kami, memastikan solusi yang gesit dan efektif yang sejalan dengan perkembangan lingkungan hukum yang terus berubah.
-        </p>
-        <p>
-            Di Advokat Nusa, kami berkomitmen untuk membangun hubungan jangka panjang dan memberikan solusi yang melampaui kebutuhan sesaat demi mendukung kesuksesan jangka panjang klien kami. Kami percaya bahwa proses sama pentingnya dengan hasil, dan baik dalam membimbing klien melalui transaksi yang kompleks maupun mewakili mereka dalam sengketa berisiko tinggi, kami berpegang teguh pada keunggulan, integritas, dan layanan klien yang luar biasa yang menumbuhkan kepercayaan dan keandalan.
-        </p>
-        </div>",
+            <div class='accordion-list'>
+              <ul>
+                <li>
+                  <span>Integritas:</span> Kami mematuhi standar etika tertinggi, membangun kepercayaan dan akuntabilitas.
+                </li>
+                <li>
+                  <span>Keahlian:</span> Kami memberikan keahlian hukum tingkat atas melalui pembelajaran dan pengembangan yang berkelanjutan.
+                </li>
+                <li>
+                  <span>Kegigihan:</span> Kami menghadapi tantangan dengan ketangguhan dan tekad, berupaya mencapai keunggulan.
+                </li>
+              </ul>
+            </div>",
+      'desc_nusa_3' => "<div class='content pt-2 mt-0'>
+            <p class='text-justify'>
+              Di Nusa Advocates, kami berkomitmen untuk membangun hubungan jangka panjang dan memberikan solusi yang melampaui kebutuhan sesaat guna mendukung kesuksesan jangka panjang klien kami. Kami percaya bahwa proses sama pentingnya dengan hasil. Baik dalam menangani transaksi yang kompleks maupun mewakili klien dalam sengketa berisiko tinggi, kami secara konsisten menjunjung tinggi integritas, keunggulan, dan layanan klien yang unggul, membangun kepercayaan dan keandalan di setiap langkah.
+            </p>
+          </div>",
 
     
-    'short_about_us' => 'Didirikan dengan komitmen pada keunggulan dan kepercayaan, Nusa Advocates adalah firma hukum terkemuka yang berbasis di Jakarta, Indonesia.',
-    'short_practice_area' => 'Didirikan dengan komitmen pada keunggulan dan kepercayaan, Nusa Advocates adalah firma hukum terkemuka yang berbasis di Jakarta, Indonesia.',
-    'short_career' => 'Didirikan dengan komitmen pada keunggulan dan kepercayaan, Nusa Advocates adalah firma hukum terkemuka yang berbasis di Jakarta, Indonesia.',
-    'short_principal_lawyer' => 'Didirikan dengan komitmen pada keunggulan dan kepercayaan, Nusa Advocates adalah firma hukum terkemuka yang berbasis di Jakarta, Indonesia.',
+    'short_about_us' => 'Didirikan dengan komitmen kepercayaan, profesionalisme, dan keunggulan, Nusa Advocates adalah kantor hukum terkemuka yang berbasis di Jakarta, Indonesia.',
+    'short_practice_area' => 'Nusa Advocates menyediakan berbagai layanan hukum.',
+    'short_career' => 'Firma kami dirancang untuk berkembang, dan kami terus mencari individu yang dinamis dan bersemangat untuk bergabung dengan tim pengacara dan staf kami. Jika Anda tertarik untuk menjadi bagian dari firma kami, silakan kirimkan lamaran dan CV Anda ke: nusa@nusaadvocates.com.',
+    'short_principal_lawyer' => 'Tim kami berdedikasi untuk memberikan layanan hukum yang unggul.',
     'short_news' => 'Didirikan dengan komitmen pada keunggulan dan kepercayaan, Nusa Advocates adalah firma hukum terkemuka yang berbasis di Jakarta, Indonesia.',
-    'short_contact_us' => 'Didirikan dengan komitmen pada keunggulan dan kepercayaan, Nusa Advocates adalah firma hukum terkemuka yang berbasis di Jakarta, Indonesia.',
+    'short_contact_us' => 'Untuk solusi hukum yang profesional, silakan hubungi kami di:',
         
     'practice_area' => 'Layanan',
 

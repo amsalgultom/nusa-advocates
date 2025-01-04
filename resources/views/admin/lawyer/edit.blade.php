@@ -50,16 +50,23 @@
                                 </div>
                                 <div class="col-md-5">
                                     <div class="row">
-                                        <div class="col-md-7">
+                                        <div class="col-md-12">
                                             <div class="mb-3">
                                                 <label class="form-label">Name</label>
                                                 <input type="text" name="name" class="form-control" required value="{{ $lawyer->name }}">
                                             </div>
                                         </div>
-                                        <div class="col-md-5">
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Email</label>
                                                 <input type="text" name="email" class="form-control" required value="{{ $lawyer->email }}">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Level</label>
+                                                <input type="text" name="level" class="form-control" required value="{{ $lawyer->level }}">
                                             </div>
                                         </div>
                                         <div class="col-md-7">

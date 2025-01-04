@@ -30,7 +30,6 @@
         @foreach($lawyers as $lawyer)
         <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
           <div class="team-member d-flex align-items-start">
-            <div class="pic"><img src="{{ asset('storage/lawyer') . '/' . $lawyer->image }}" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>{{ $lawyer->name }}</h4>
               <span>{{ $lawyer->level }}</span>
@@ -43,6 +42,7 @@
                 @endif
               </p>
             </div>
+            <div class="pic"><img src="{{ asset('storage/lawyer') . '/' . $lawyer->image }}" class="img-fluid" alt=""></div>
           </div>
         </div>
         @endforeach

@@ -6,7 +6,7 @@
 @include('layout-views.slider')
 
 <main id="main">
-  
+
   <!-- <div class="img-bg1">
     <img src="{{ asset('img/img-view/dots.png') }}" alt="">
   </div>
@@ -34,7 +34,7 @@
   </section> -->
 
   <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
+  <!-- <section id="why-us" class="why-us">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
@@ -48,42 +48,38 @@
           </div>
         </div>
       </div>
-    </section><!-- End Why Us Section -->
+    </section> -->
 
-    
 
-  <section id="faq-2" class="faq-2">
+  <!-- <section id="faq-2" class="faq-2">
 
-<!-- Section Title -->
-<div class="container section-title aos-init aos-animate" data-aos="fade-up">
-  <h2>@lang('messages.practice_area')</h2>
-</div><!-- End Section Title -->
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+      <h2>@lang('messages.practice_area')</h2>
+    </div>
 
-<div class="container">
+    <div class="container">
 
-  <div class="row justify-content-center">
-    <div class="col-lg-10">
-      <div class="faq-container text-justify">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="faq-container text-justify">
 
-      @php $no = 1; @endphp
-      @foreach ($practices as $practice)
-        <div class="faq-item">
-          <i class="faq-icon bi bi-{{ $no++ }}-circle-fill"></i>
-          <h3>{{ $practice->name }}</h3>
-            <p>{{ $practice->description }}</p>
+            @foreach ($practices as $practice)
+            <div class="faq-item">
+              <h3>{{ $practice->name }}</h3>
+              <p class="mb-0">{{ $practice->description }}</p>
+            </div>
+            @endforeach
+
+
+          </div>
+
         </div>
-      @endforeach
-
 
       </div>
 
     </div>
 
-  </div>
-
-</div>
-
-</section>
+  </section> -->
 
 </main><!-- End #main -->
 @endsection

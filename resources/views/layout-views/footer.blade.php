@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-5 col-md-6 footer-contact">
+          <!-- <div class="col-lg-5 col-md-6 footer-contact">
             <img src="{{ asset('img/logo-nusa.png') }}" alt="" class="logo-footer">
             <p class="text-com-footer">
               @lang('messages.footer')
@@ -19,7 +19,7 @@
               <li><a href="{{ route('practice_area', ['lang' => app()->getLocale()]) }}">{{ $practice->name }}</a></li>
               @endforeach
             </ul>
-          </div>
+          </div> -->
           <!-- <div class="col-lg-2 col-md-6 footer-links">
             <h4>@lang('messages.features')</h4>
             <ul>

@@ -11,9 +11,9 @@
         <div class="carousel-container">
           <div class="container">
             <h2>@lang('messages.news')</h2>
-            <p>
+            <!-- <p>
             @lang('messages.short_news')
-            </p>
+            </p> -->
           </div>
         </div>
       </div>

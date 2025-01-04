@@ -27,7 +27,7 @@
     </div>
   </section> -->
 
-  <section id="hero">
+  <section id="hero" style="height: 100vh;">
   <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div id="hero-carousel-indicators"></div>
     <div class="carousel-inner" role="listbox">

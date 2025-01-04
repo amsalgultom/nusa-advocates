@@ -43,21 +43,27 @@
                                 <div class="col-md-7">
                                     <div class="mb-3">
                                         <label class="form-label">Description</label>
-                                        <textarea class="form-control" name="description" rows="5" required></textarea>
+                                        <textarea class="form-control" name="description" rows="8" required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="row">
-                                        <div class="col-md-7">
+                                        <div class="col-md-12">
                                             <div class="mb-3">
                                                 <label class="form-label">Name</label>
                                                 <input type="text" name="name" class="form-control" required>
                                             </div>
                                         </div>
-                                        <div class="col-md-5">
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Email</label>
                                                 <input type="text" name="email" class="form-control" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Level</label>
+                                                <input type="text" name="level" class="form-control" required>
                                             </div>
                                         </div>
                                         <!-- <div class="col-md-12">

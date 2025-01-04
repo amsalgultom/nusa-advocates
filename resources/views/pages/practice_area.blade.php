@@ -30,14 +30,12 @@
   <div class="row justify-content-center">
     <div class="col-lg-10">
       <div class="faq-container text-justify">
-        @php $no = 1; @endphp
-        @foreach ($practices as $practice)
-          <div class="faq-item">
-            <i class="faq-icon bi bi-{{ $no++ }}-circle-fill"></i>
-            <h3>{{ $practice->name }}</h3>
-              <p>{{ $practice->description }}</p>
-          </div>
-        @endforeach
+      @foreach ($practices as $practice)
+        <div class="faq-item">
+          <h3>{{ $practice->name }}</h3>
+            <p class="mb-0">{{ $practice->description }}</p>
+        </div>
+      @endforeach
       </div>
 
     </div>
