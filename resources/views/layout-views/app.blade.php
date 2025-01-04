@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="robots" content="index">
 
   <title>@yield('title')</title>
   <meta content="Founded on a commitment to excellence and trust, Nusa Advocates is a premier law firm based in Jakarta, Indonesia" name="description">
