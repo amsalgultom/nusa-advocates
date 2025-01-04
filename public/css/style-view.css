@@ -2052,7 +2052,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #444;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2989,4 +2989,20 @@ box-shadow: 0px 0px 10px 0px rgba(204,153,0,1);
   padding: 7px;
   border-radius: 10px;
   margin-right: 4px;
+}
+.color-gold{
+  color: #cc9900;
+}
+.pr-0{
+  padding-right: 0;
+}
+@media (min-width: 768px) {
+  .col-custom {
+      flex: 0 0 auto;
+      width: 18% !important;
+  }
+  .col-custom-1{
+    flex: 0 0 auto;
+    width: 12% !important;
+  }
 }

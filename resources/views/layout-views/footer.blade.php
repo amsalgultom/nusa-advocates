@@ -32,10 +32,22 @@
             <h4>@lang('messages.contact_us')</h4>
             <ul>
               <li>@lang('messages.short_contact_us')</li>
-              <li>Nusa Advocates <br>
-                Sequis Center, 9th Floor, Jl. Jenderal Sudirman No. 71  Jakarta 12190, Indonesia
+              <li class="color-gold mb-0 p-0">Nusa Advocates</li>
+              <li class="pt-0">Sequis Center, 9th Floor, Jl. Jenderal Sudirman No. 71  Jakarta 12190, Indonesia
             </a></li>
-            <li><i class="bi bi-telephone icon-foot"></i> <a href="#">+62 21 2526587</a> &nbsp;&nbsp;<i class="bi bi-envelope icon-foot"></i> <a href="#">nusa@nusaadvocates.com</a> &nbsp;&nbsp;<i class="bi bi-globe icon-foot"></i> <a href="#">www.nusaadvocates.com</a></li>
+            <li class="d-block">
+              <div class="row">
+                <div class="col-md-2 col-custom-1 mb-4 pr-0">
+                  <i class="bi bi-telephone icon-foot"></i> <a href="#">+62 21 2526587</a>
+                </div>
+                <div class="col-md-3 col-custom mb-4 pr-0">
+                  <i class="bi bi-envelope icon-foot"></i> <a href="mailto:nusa@nusaadvocates.com">nusa@nusaadvocates.com</a>
+              </div>
+              <div class="col-md-3 col-custom mb-4 pr-0">
+                <i class="bi bi-globe icon-foot"></i> <a href="nusa@nusaadvocates.com">www.nusaadvocates.com</a>
+              </div>
+            </div>
+          </li>
             </ul>
             <!-- <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
