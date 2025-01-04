@@ -71,10 +71,6 @@ class LawyerController extends Controller
              Lawyer::create($request->except('image') + ['image' => $imageName ?? null]);
              return redirect()->route('lawyer.index')->with('success', 'Created New Franchise Successfully.');
          } catch (\Exception $e) {
-             //send to log provider
-             $message = $e->getMessage();
-             $this->logger->logMessage($message);
- 
              return redirect()->back()->with('error', 'An error occurred while create the lawyer.');
          }
      }
@@ -117,10 +113,6 @@ class LawyerController extends Controller
  
              return redirect()->route('lawyer.index')->with('success', 'Updated Franchise Successfully.');
          } catch (\Exception $e) {
-             //send to log provider
-             $message = $e->getMessage();
-             $this->logger->logMessage($message);
- 
              return redirect()->back()->with('error', 'An error occurred while update the Franchise.');
          }
      }
