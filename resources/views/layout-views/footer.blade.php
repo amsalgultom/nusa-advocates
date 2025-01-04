@@ -32,7 +32,8 @@
             <h4>@lang('messages.contact_us')</h4>
             <ul>
               <li>@lang('messages.short_contact_us')</li>
-              <li>Sequis Center, 9th Floor, Jl. Jenderal Sudirman No. 71  Jakarta 12190, Indonesia
+              <li>Nusa Advocates <br>
+                Sequis Center, 9th Floor, Jl. Jenderal Sudirman No. 71  Jakarta 12190, Indonesia
             </a></li>
             <li><i class="bi bi-telephone icon-foot"></i> <a href="#">+62 21 2526587</a> &nbsp;&nbsp;<i class="bi bi-envelope icon-foot"></i> <a href="#">nusa@nusaadvocates.com</a> &nbsp;&nbsp;<i class="bi bi-globe icon-foot"></i> <a href="#">www.nusaadvocates.com</a></li>
             </ul>
