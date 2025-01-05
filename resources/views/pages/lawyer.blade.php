@@ -31,7 +31,7 @@
         <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
           <div class="team-member d-flex align-items-start">
             <div class="member-info">
-              <h4>{{ $lawyer->name }}</h4>
+              <h4 class="color-gold">{{ $lawyer->name }}</h4>
               <span>{{ $lawyer->level }}</span>
               <p class="text-justify">
                 {!! nl2br(e($lawyer->description)) !!}

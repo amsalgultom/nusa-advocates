@@ -27,8 +27,8 @@
 <section id="faq-2" class="faq-2">
   <div class="container">
 
-  <div class="row justify-content-center">
-    <div class="col-lg-10">
+  <div class="row">
+    <div class="col-lg-12">
       <div class="faq-container text-justify">
       @foreach ($practices as $practice)
         <div class="faq-item">

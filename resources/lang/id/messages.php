@@ -44,7 +44,7 @@ return [
 
     'career' => 'Karir',
 
-    'principal_lawyer' => 'Pengacara Utama',
+    'principal_lawyer' => 'Pengacara Inti',
 
     'partnership' => 'Kemitraan',
 

@@ -10,9 +10,9 @@
         <div class="carousel-container">
           <div class="container">
             <h2>@lang('messages.contact_us')</h2>
-            <!-- <p>
+            <p>
             @lang('messages.short_contact_us')
-            </p> -->
+            </p>
           </div>
         </div>
       </div>
@@ -22,17 +22,17 @@
 
 <main id="main">
     <!-- ======= Nusa Advocates Section ======= -->
-    <section id="Nusa Advocates" class="Nusa Advocates mt-5">
+    <section id="Nusa Advocates" class="Nusa Advocates">
 
         <div class="container" data-aos="fade-up">
 
             <div class="row justify-content-center">
-                <div class="col-md-8 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-md-12 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2948781225546!2d106.8065393!3d-6.224795899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f190ebb77d3f%3A0xa703a92087300d95!2sSequis%20center!5e0!3m2!1sid!2sid!4v1734503955329!5m2!1sid!2sid" width="100%" height="450" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
+                <!-- <div class="col-md-4 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box-contact">
                     <p>@lang('messages.short_contact_us')</p>
                         <ul class="contact-list">
@@ -44,7 +44,7 @@
                               <li><i class="bi bi-envelope mr-2"></i> nusa@nusaadvocates.com</li>
                               <li><i class="bi bi-globe mr-2"></i> www.nusaadvocates.com</li>
                         </ul>
-                        <!-- <div class="d-flex justify-content-center isosmed">
+                        <div class="d-flex justify-content-center isosmed">
                             <div class="icon-sosmed">
                                 <a href="#">
                                     <i class="bi bi-facebook"></i>
@@ -55,9 +55,9 @@
                                     <i class="bi bi-instagram"></i>
                                 </a>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section><!-- End Nusa Advocates Section -->

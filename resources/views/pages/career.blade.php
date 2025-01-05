@@ -24,22 +24,22 @@
 </section><!-- End Hero -->
 
 <main id="main">
-  <section id="faq-2" class="faq-2">
+  <!-- <section id="faq-2" class="faq-2">
     <div class="container">
 
       <div class="row justify-content-center">
         <div class="col-lg-12">
-          <!-- <div class="faq-container text-justify">
+          <div class="faq-container text-justify">
             Our firm is designed for growth, and we are continually seeking dynamic and driven individuals who aspire to join our team of lawyers and staff. 
             If you are interested in becoming part of our firm, please submit your application and CV to: <a href="mailto:nusa@nusaadvocates.com">nusa@nusaadvocates.com</a>
-          </div> -->
+          </div>
 
         </div>
 
       </div>
 
     </div>
-  </section><!-- End FAQ Section -->
+  </section> -->
 
 
 </main><!-- End #main -->
