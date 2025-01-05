@@ -33,7 +33,7 @@
             <ul>
               <!-- <li>@lang('messages.short_contact_us')</li> -->
               <h4 class="mb-0 p-0">@lang('messages.nusa_advocates')</h4>
-              <li class="pt-0 color-gold">Sequis Center, 9th Floor, Jl. Jenderal Sudirman No. 71  Jakarta 12190, Indonesia
+              <li class="pt-0">Sequis Center, 9th Floor, Jl. Jenderal Sudirman No. 71  Jakarta 12190, Indonesia
             </a></li>
             <li class="d-block">
               <div class="row">
