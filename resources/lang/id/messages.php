@@ -40,11 +40,11 @@ return [
     'short_news' => 'Didirikan dengan komitmen pada keunggulan dan kepercayaan, Nusa Advocates adalah firma hukum terkemuka yang berbasis di Jakarta, Indonesia.',
     'short_contact_us' => 'Untuk solusi hukum yang profesional, silakan hubungi kami di:',
         
-    'practice_area' => 'Layanan',
+    'practice_area' => 'Layanan Kami',
 
     'career' => 'Karir',
 
-    'principal_lawyer' => 'Pengacara Inti',
+    'principal_lawyer' => 'Tim Inti Kami',
 
     'partnership' => 'Kemitraan',
 
