@@ -48,9 +48,9 @@ return [
     
     'career' => 'Careers ',
     
-    'practice_area' => 'The Services',
+    'practice_area' => 'Our Services',
 
-    'principal_lawyer' => 'Core Team',
+    'principal_lawyer' => 'Our Core Team',
 
     'partnership' => 'Partnership',
 
