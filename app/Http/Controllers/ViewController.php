@@ -71,7 +71,7 @@ class ViewController extends Controller
         $lang = app()->getLocale();
         $lawyers = Lawyer::select('name', 'level', 'description', 'image', 'email')
             ->where('lang', $lang)
-            ->orderBy('id', 'asc')
+            ->orderBy('name', 'asc')
             ->orderBy('level', 'desc')
             ->get();
         return view('pages.lawyer', compact('lawyers'));
