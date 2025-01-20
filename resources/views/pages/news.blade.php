@@ -5,7 +5,7 @@
 <main id="main">  <!-- ======= Nusa Advocates Section ======= -->
   <section id="Nusa Advocates" class="Nusa Advocates mt-5">
     <div class="container mt-4">
-      <h4 class="title-newsdetail">Firm News</h4>
+      <h4 class="title-newsdetail">@lang('messages.firm_news')</h4>
     </div>
   @foreach($news as $new)
     <div class="container mt-3">

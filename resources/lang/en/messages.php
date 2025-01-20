@@ -158,6 +158,7 @@ return [
     'desc_gallery' => 'From each of Center to make us easy in presentation to our business partnership or franchise',
 
     'see_more' => 'See More',
+    'firm_news' => 'Firm News',
 
 ];
 ?>

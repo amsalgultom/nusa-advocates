@@ -150,6 +150,7 @@ return [
     'desc_gallery' => 'Dari setiap pusat, untuk memudahkan kami dalam presentasi kerjasama bisnis atau waralaba.',
     
     'see_more' => 'Lihat Selengkapnya',
+    'firm_news' => 'Berita Firma',
 
     
 ];
