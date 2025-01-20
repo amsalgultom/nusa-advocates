@@ -11,7 +11,7 @@
     <div class="container mt-3">
       <div class="row">
         <div class="col-lg-12">
-          <p>{{ date('d F Y', strtotime($new->date )) }}</p>
+          <p class="mb-0">{{ date('d F Y', strtotime($new->date )) }}</p>
           <span class="desc-newsdetail">
             {!! $new->desc !!}
           </span>
