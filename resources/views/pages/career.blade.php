@@ -40,6 +40,12 @@
 
     </div>
   </section> -->
+  
+  <div class="container mt-5">
+    <div class="text-center">
+      <img src="{{ asset('img/career.jpg') }}" alt="career" class="img-thumbnail">
+    </div>
+  </div>
 
 
 </main><!-- End #main -->
