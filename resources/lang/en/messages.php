@@ -5,7 +5,6 @@ return [
 
     'desc_nusa_1' => "Nusa Advocates, a Jakarta-based law firm, upholds integrity, proficiency, and perseverance, delivering exceptional service, fostering trust, and ensuring clients' long-term success.",
     'desc_nusa_2' => "<div class='content text-justify'>
-              <h3 class='text-left'>The Firm</h3>
               <p class='mb-0'>
                 <strong class='color-gold'>Nusa Advocates</strong> is a premier law office based in Jakarta, Indonesia, committed to trust, professionalism, and excellence. 
                 We offer extensive expertise in corporate and commercial law, including mergers and acquisitions, energy and mining, finance, capital markets, and regulatory compliance. 

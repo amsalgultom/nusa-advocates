@@ -4,7 +4,6 @@ return [
     'nusa_advocates' => 'Nusa Advocates',
     'desc_nusa_1' => 'Nusa Advocates, suatu firma hukum yang berbasis di Jakarta, menjunjung tinggi integritas, keahlian, dan kegigihan, memberikan layanan yang unggul, membangun kepercayaan, dan memastikan kesuksesan klien jangka panjang.',
     'desc_nusa_2' => "<div class='content text-justify'>
-              <h3 class='text-left'>The Firm</h3>
               <p class='mb-0'>
                 <strong class='color-gold'>Nusa Advocates</strong> adalah kantor hukum terkemuka yang berbasis di Jakarta, Indonesia, yang berkomitmen pada kepercayaan, profesionalisme, dan keunggulan. Kami menawarkan keahlian luas dalam hukum perusahaan dan komersial, termasuk merger dan akuisisi, energi dan pertambangan, keuangan, pasar modal, serta kepatuhan peraturan. Dengan menggabungkan pengetahuan hukum yang mendalam dan wawasan industri, kami membantu klien menghadapi dinamika lingkungan usaha saat ini melalui strategi yang selaras dengan tujuan mereka.
                 Dipandu oleh visi kami untuk menjadi firma hukum kelas dunia yang diakui secara global, kami berdedikasi untuk memberikan layanan hukum yang unggul. Misi kami adalah untuk menyediakan solusi strategis berkualitas tinggi yang disesuaikan dengan kebutuhan unik setiap klien, serta membangun reputasi yang solid di pasar internasional.

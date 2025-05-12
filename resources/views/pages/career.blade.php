@@ -41,9 +41,9 @@
     </div>
   </section> -->
   
-  <div class="container mt-5">
+  <div class="container">
     <div class="text-center">
-      <img src="{{ asset('img/career2.jpg') }}" alt="career" class="img-thumbnail">
+      <img src="{{ asset('img/career2.jpg') }}" alt="career" class="img-custom">
     </div>
   </div>
 

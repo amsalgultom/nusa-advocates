@@ -46,6 +46,12 @@
               <div class="col-md-3 col-custom mb-4 pr-0">
                 <i class="bi bi-globe icon-foot"></i> <a href="nusa@nusaadvocates.com">www.nusaadvocates.com</a>
               </div>
+              <div class="col-md-2 col-custom-1 mb-4 pr-0">
+                <i class="bi bi-instagram icon-foot"></i> <a href="https://www.instagram.com/nusaadvocates?igsh=MW4yMmR4ajRtMWxwcw==">nusaadvocates</a>
+              </div>
+              <div class="col-md-2 col-custom-1 mb-4 pr-0">
+                <i class="bi bi-linkedin icon-foot"></i> <a href="https://www.linkedin.com/in/nusa-advocates-07b2b3342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">nusa-advocates</a>
+              </div>
             </div>
           </li>
             </ul>
