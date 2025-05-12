@@ -17,3 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+resources/lang/en/messages.php
+resources/lang/id/messages.php
