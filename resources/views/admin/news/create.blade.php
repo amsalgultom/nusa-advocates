@@ -68,7 +68,7 @@
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">File Upload</label>
-                                                <input type="file" name="image" id="upload_image" accept="image/png, image/gif, image/jpeg" class="form-control" required>
+                                                <input type="file" name="image" id="upload_image" accept="image/png, image/gif, image/jpeg" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
