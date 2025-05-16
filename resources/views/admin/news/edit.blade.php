@@ -64,13 +64,13 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Date</label>
                                                 <input type="date" name="date" class="form-control" required value="{{ $news->date }}">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">
                                                     File Upload
@@ -80,12 +80,21 @@
                                                 <input type="file" name="image" class="form-control mb-2">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Language</label>
                                                 <select name="lang" id="lang" class="form-control">
                                                     <option value="en" {{ $news->lang == 'en' ? 'selected' : '' }}>English</option>
                                                     <option value="id" {{ $news->lang == 'id' ? 'selected' : '' }}>Indonesia</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Type</label>
+                                                <select name="type" id="type" class="form-control">
+                                                    <option value="news" {{ $news->type == 'news' ? 'selected' : '' }}>News</option>
+                                                    <option value="update" {{ $news->type == 'update' ? 'selected' : '' }}>Update</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -102,6 +111,12 @@
                                                     <span class="input-group-text" id="basic-addon3">{{ url('/news') }}/</span>
                                                     <input type="text" class="form-control" name="slug" id="basic-url" aria-describedby="basic-addon3" value="{{ $news->slug }}">
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="mb-3">
+                                                <label class="form-label">Link Redirect</label>
+                                                <input type="text" name="link_redirect" class="form-control" value="{{ $news->link_redirect }}">
                                             </div>
                                         </div>
                                     </div>

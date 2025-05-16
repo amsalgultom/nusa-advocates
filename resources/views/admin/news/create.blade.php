@@ -59,24 +59,33 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Date</label>
                                                 <input type="date" name="date" class="form-control" required>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">File Upload</label>
                                                 <input type="file" name="image" id="upload_image" accept="image/png, image/gif, image/jpeg" class="form-control" required>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Language</label>
                                                 <select name="lang" id="lang" class="form-control">
                                                     <option value="id">Indonesia</option>
                                                     <option value="en">English</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Type</label>
+                                                <select name="type" id="type" class="form-control">
+                                                    <option value="news">News</option>
+                                                    <option value="update">Update</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -99,6 +108,12 @@
                                                     <span class="input-group-text" id="basic-addon3">{{ url('/news') }}/</span>
                                                     <input type="text" class="form-control" name="slug" id="basic-url" aria-describedby="basic-addon3" required>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Link Redirect</label>
+                                                <input type="text" name="link_redirect" class="form-control">
                                             </div>
                                         </div>
                                     </div>

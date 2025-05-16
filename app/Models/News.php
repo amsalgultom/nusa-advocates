@@ -17,6 +17,8 @@ class News extends Model
         'desc',
         'image',
         'category',
+        'type',
+        'link_redirect',
         'slug',
         'lang',
         'created_by',

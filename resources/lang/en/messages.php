@@ -44,7 +44,6 @@ return [
     'short_principal_lawyer' => 'Our team is dedicated to delivering exceptional legal services.',
     'short_news' => 'Founded on a commitment to excellence and trust, Nusa Advocates is a premier law firm based in Jakarta, Indonesia.',
     'short_contact_us' => 'For expert legal solutions, please contact us at:',
-    
     'career' => 'Careers ',
     
     'practice_area' => 'Our Services',
@@ -129,6 +128,9 @@ return [
     ',
 
     'news' => 'News and Updates',
+    'just_news' => 'News',
+    'just_update' => 'Updates',
+    'news_update' => 'News & Updates',
 
     'title_landing' => 'TRANQUILITY AWAITS AT OUR SANCTUARY.',
 

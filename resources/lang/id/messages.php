@@ -123,6 +123,10 @@ return [
 
     'news' => 'Berita dan Pembaruan',
     
+    'just_news' => 'Berita',
+    'just_update' => 'Pembaruan',
+    'news_update' => 'Berita & Pembaruan',
+    
     'title_landing' => 'KETENANGAN MENANTI DI TEMPAT PERSEMBAHAN KAMI.',
 
     'desc_landing' => 'Pusat kesehatan yang menekankan pada kesejahteraan holistik, mencakup aspek fisik, mental, dan emosional.',

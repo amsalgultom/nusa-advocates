@@ -37,6 +37,7 @@ Route::middleware(['setLocale'])->group(function () {
     Route::get('/{lang}/principal_lawyer', [ViewController::class, 'lawyer'])->name('principal_lawyer');
     Route::get('/{lang}/practice_area', [ViewController::class, 'practice_area'])->name('practice_area');
     Route::get('/{lang}/news', [ViewController::class, 'news'])->name('news');
+    Route::get('/{lang}/update', [ViewController::class, 'news'])->name('update');
     Route::get('/{lang}/news/{slug}', [ViewController::class, 'newsdetail'])->name('newsdetail');
     Route::get('/{lang}/gallery', [ViewController::class, 'gallery'])->name('gallery');
     Route::get('/{lang}/career', [ViewController::class, 'career'])->name('career');
