@@ -127,10 +127,9 @@ return [
     email/phone]. 
     ',
 
-    'news' => 'News and Updates',
-    'just_news' => 'News',
-    'just_update' => 'Updates',
-    'news_update' => 'News & Updates',
+    'news' => 'News',
+    'update' => 'Updates',
+    'news_update' => 'News and Updates',
 
     'title_landing' => 'TRANQUILITY AWAITS AT OUR SANCTUARY.',
 

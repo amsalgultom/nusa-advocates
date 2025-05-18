@@ -121,11 +121,9 @@ return [
     Untuk memulai diskusi mengenai waralaba, silakan hubungi tim kemitraan khusus kami di [kontak
     email/telepon].',
 
-    'news' => 'Berita dan Pembaruan',
-    
-    'just_news' => 'Berita',
-    'just_update' => 'Pembaruan',
-    'news_update' => 'Berita & Pembaruan',
+    'news' => 'Berita',
+    'update' => 'Pembaruan',
+    'news_update' => 'Berita dan Pembaruan',
     
     'title_landing' => 'KETENANGAN MENANTI DI TEMPAT PERSEMBAHAN KAMI.',
 

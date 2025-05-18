@@ -1,5 +1,5 @@
 @extends('layout-views.app')
-@section('title', 'Nusa Advocates | '. __('messages.news'))
+@section('title', 'Nusa Advocates | '. __('messages.news_update'))
 
 
 <!-- ======= Hero Section ======= -->
@@ -10,7 +10,7 @@
       <div class="carousel-item active" style="background-image: url({{ asset('img/banner/nusa_hero_2.jpg') }})">
         <div class="carousel-container">
           <div class="container">
-            <h2>@lang('messages.news')</h2>
+            <h2>@lang('messages.news_update')</h2>
             <p>
               @lang('messages.short_news')
             </p>
@@ -37,7 +37,7 @@
                     <div class="content">
                       <div class="content-meta-header">
                         <div class="content-type-label text-uppercase">
-                          {!! $new->type !!} {{ $new->date ? '| ' . date('d F Y', strtotime($new->date )) : '' }} {{ $new->category ? '| ' . $new->category : '' }}
+                          {{ __('messages.' . $new->type) }}  {{ $new->date ? '| ' . date('d F Y', strtotime($new->date )) : '' }} {{ $new->category ? '| ' . $new->category : '' }}
                         </div>
                       </div>
                       <div class="content-headline">
