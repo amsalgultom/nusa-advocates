@@ -29,7 +29,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2948781225546!2d106.8065393!3d-6.224795899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f190ebb77d3f%3A0xa703a92087300d95!2sSequis%20center!5e0!3m2!1sid!2sid!4v1734503955329!5m2!1sid!2sid" width="100%" height="450" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d741.0359684602786!2d106.80597898584939!3d-6.224932931627447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f10054c6f60b%3A0xd52aefa21b2214d2!2sNusa%20Advocates!5e0!3m2!1sen!2sid!4v1747825937746!5m2!1sen!2sid" width="100%" height="450" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2948781225546!2d106.8065393!3d-6.224795899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f190ebb77d3f%3A0xa703a92087300d95!2sSequis%20center!5e0!3m2!1sid!2sid!4v1734503955329!5m2!1sid!2sid" width="100%" height="450" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                     </div>
                 </div>
                 <!-- <div class="col-md-4 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
