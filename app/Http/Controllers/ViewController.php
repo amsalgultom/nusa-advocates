@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\News;
 use App\Models\Gallery;
+use App\Models\Career;
 use App\Models\Lawyer;
 use App\Models\PracticeArea;
 use Illuminate\Support\Facades\Artisan;
@@ -109,7 +110,8 @@ class ViewController extends Controller
 
     public function career()
     {
-        return view('pages.career');
+        $careers = Career::all();
+        return view('pages.career', compact('careers'));
     }
 
     public function generateKey()

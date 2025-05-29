@@ -40,42 +40,41 @@
 
     </div>
   </section> -->
-  
+
   <!-- <div class="container">
     <div class="text-center">
       <img src="{{ asset('img/career2.jpg') }}" alt="career" class="img-custom">
     </div>
   </div> -->
-<section id="Nusa Advocates" class="Nusa Advocates mt-3">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-4 col-md-4 col-12">
-            <div class="featured-insights__tile promo-content-tile  ">
-              <a class="promo-content-link" href="{{ asset('img/career2.jpg') }}" target="_blank">
-                <div class="container-table">
-                  <div class="container-row ">
-                    <div class="content">
-                      <div class="content-meta-header">
-                        <div class="content-type-label text-uppercase">
-                          {{ __('messages.career') }}  | 08 April 2024
-                        </div>
-                      </div>
-                      <div class="content-headline">
-                        WE ARE RECRUITING
-                          <!-- <img src="{{ asset('img/career2.jpg') }}" alt="career" class="img-custom"> -->
-                      </div>
-                      <div class="content-summary">
-                        WE ARE GRATEFUL FOR THE ENTHUSIASTIC RESPONSE WE’VE RECEIVED. IF YOU HAVE NOT YET APPLIED, SUBMIT YOUR APPLICATION BEFORE 23:59 - APRIL 11
-                      </div>
+  <section id="Nusa Advocates" class="Nusa Advocates mt-3">
+    <div class="container">
+      @foreach($careers as $career)
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="featured-insights__tile promo-content-tile  ">
+          <a class="promo-content-link" href="{{ $career->link_redirect ? $career->link_redirect : '#' }}" target="_blank">
+            <div class="container-table">
+              <div class="container-row ">
+                <div class="content">
+                  <div class="content-meta-header">
+                    <div class="content-type-label text-uppercase">
+                      {{ __('messages.career') }} {{ $career->date ? '| ' . date('d F Y', strtotime($career->date )) : '' }}
                     </div>
                   </div>
+                  <div class="content-headline">
+                    {{ app()->getLocale() == 'en' ? $career->title_en : $career->title_id }}
+                  </div>
+                  <div class="content-summary">
+                    {!! app()->getLocale() == 'en' ? $career->description_en : $career->description_id !!}
+                  </div>
                 </div>
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
+        </div>
       </div>
+      @endforeach
     </div>
-</section>
+  </section>
 
 </main><!-- End #main -->
 @endsection
