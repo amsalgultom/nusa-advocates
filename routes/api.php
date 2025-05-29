@@ -21,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/artisan/key-generate', [ViewController::class, 'generateKey']);
 Route::get('/artisan/cache', [ViewController::class, 'clearCache']);
 Route::get('/artisan/storage-link', [ViewController::class, 'storageLink']);
+Route::get('/artisan/migrate', [ViewController::class, 'migrate']);
