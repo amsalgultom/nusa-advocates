@@ -147,5 +147,15 @@ class ViewController extends Controller
         }
     }
 
+    public function migrate()
+    {
+        try {
+            Artisan::call('migrate');
+            return response()->json(['message' => 'Migration completed successfully']);
+        } catch (\Exception $e) {
+            return response()->json(['message' => 'Error during migration', 'error' => $e->getMessage()], 500);
+        }
+    }
+
 
 }
