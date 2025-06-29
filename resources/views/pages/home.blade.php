@@ -62,7 +62,7 @@
       <div class="row justify-content-center">
         @foreach($news as $new)
           <div class="col-lg-4 col-md-4 col-12">
-            <div class="featured-insights__tile promo-content-tile  ">
+            <div class="featured-insights__tile promo-content-tile" style="height: 100%;">
               <a class="promo-content-link" href="{{ $new->link_redirect ? $new->link_redirect : '#' }}" target="_blank">
                 <div class="container-table">
                   <div class="container-row ">
