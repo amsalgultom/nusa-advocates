@@ -3,21 +3,21 @@
 
 @section('content')
 <section id="hero">
-  <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div id="hero-carousel-indicators"></div>
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active" style="background-image: url({{ asset('img/banner/nusa_hero_2.jpg') }})">
-        <div class="carousel-container">
-          <div class="container">
-            <h2>@lang('messages.contact_us')</h2>
-            <p>
-            @lang('messages.short_contact_us')
-            </p>
-          </div>
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="hero-carousel-indicators"></div>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="background-image: url({{ asset('img/banner/nusa_hero_2.jpg') }})">
+                <div class="carousel-container">
+                    <div class="container">
+                        <h2>@lang('messages.contact_us')</h2>
+                        <p>
+                            @lang('messages.short_contact_us')
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section><!-- End Hero -->
 
 <main id="main">
@@ -64,4 +64,15 @@
     </section><!-- End Nusa Advocates Section -->
 
 </main><!-- End #main -->
-@endsection
+
+@push('after_footer')
+<ul>
+    <h4 class="mb-0 p-0">Japan Collaborating Law Firm :</h4>
+    <h4 class="mb-0 p-0">Nexel Partners</h4>
+    <li class="mb-0 p-0">Mita-Kokusai Bldg. 22F, 1-4-28, Mita, Minato-ku Tokyo 108-0073 Japan</li>
+    <li class="mb-0 p-0">Tel : 03-5427-5830 (representative)</li>
+    <li class="mb-0 p-0">Fax : 03-5427-5832</li>
+</ul>
+    @endpush
+
+    @endsection

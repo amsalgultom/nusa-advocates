@@ -38,7 +38,6 @@
   @include('layout-views.header')
   @yield('content')
   @include('layout-views.footer')
-
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->

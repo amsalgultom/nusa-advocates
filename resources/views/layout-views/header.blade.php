@@ -15,8 +15,14 @@
           <li><a class="nav-link scrollto {{ (request()->segment(2) == '') ? 'active' : '' }}" href="{{ route('home', ['lang' => app()->getLocale()]) }}">@lang('messages.home')</a></li>
           <li><a class="nav-link scrollto {{ (request()->segment(2) == 'about') ? 'active' : '' }}" href="{{ route('about', ['lang' => app()->getLocale()]) }}">@lang('messages.about_us')</a></li>
           <li><a class="nav-link scrollto {{ (request()->segment(2) == 'practice_area') ? 'active' : '' }}" href="{{ route('practice_area', ['lang' => app()->getLocale()]) }}">@lang('messages.practice_area')</a></li>
-          <li><a class="nav-link scrollto {{ (request()->segment(2) == 'principal_lawyer') ? 'active' : '' }}" href="{{ route('principal_lawyer', ['lang' => app()->getLocale()]) }}">@lang('messages.principal_lawyer')</a></li>
+          <!-- <li><a class="nav-link scrollto {{ (request()->segment(2) == 'principal_lawyer') ? 'active' : '' }}" href="{{ route('principal_lawyer', ['lang' => app()->getLocale()]) }}">@lang('messages.principal_lawyer')</a></li> -->
           <!-- <li><a class="nav-link scrollto {{ (request()->segment(2) == 'news') ? 'active' : '' }}" href="{{ route('news', ['lang' => app()->getLocale()]) }}">@lang('messages.news')</a></li> -->
+          <li class="dropdown"><a href="#" class="{{ (request()->segment(2) == 'principal_lawyer') ? 'active' : '' }}"><span>@lang('messages.principal_lawyer')</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="{{ route('principal_lawyer', ['lang' => app()->getLocale()]) }}?level=Partner">@lang('messages.partners')</a></li>
+              <li><a href="{{ route('principal_lawyer', ['lang' => app()->getLocale()]) }}?level=Associate">@lang('messages.associates')</a></li>
+            </ul>
+          </li>
           <li class="dropdown"><a href="#" class="{{ (request()->segment(2) == 'news' || request()->segment(2) == 'update') ? 'active' : '' }}"><span>@lang('messages.news_update')</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="{{ route('news', ['lang' => app()->getLocale()]) }}">@lang('messages.news')</a></li>

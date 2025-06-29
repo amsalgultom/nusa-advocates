@@ -62,7 +62,10 @@
               <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div> -->
+            @stack('after_footer')
           </div>
+
+          
 
         </div>
       </div>

@@ -62,7 +62,7 @@ class ViewController extends Controller
         $lang = app()->getLocale();
         $practices = PracticeArea::select('name', 'description')
             ->where('lang', $lang)
-            ->orderBy('id', 'asc')
+            ->orderBy('name', 'asc')
             ->get();
         return view('pages.practice_area', compact('practices'));
     }
@@ -82,9 +82,13 @@ class ViewController extends Controller
         $lang = app()->getLocale();
         $practices = PracticeArea::select('name', 'description')
             ->where('lang', $lang)
-            ->orderBy('id', 'asc')
+            ->orderBy('name', 'asc')
             ->get();
-        return view('pages.home', compact('practices'));
+        $news = News::where('lang', $lang)
+            ->orderBy('id', 'desc')
+            ->limit(2)
+            ->get();
+        return view('pages.home', compact('practices', 'news'));
     }
 
     public function news()

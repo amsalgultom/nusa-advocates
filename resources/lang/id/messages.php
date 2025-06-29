@@ -43,7 +43,7 @@ return [
 
     'career' => 'Karir',
 
-    'principal_lawyer' => 'Tim Inti Kami',
+    'principal_lawyer' => 'Tim Kami',
 
     'partnership' => 'Kemitraan',
 
@@ -152,6 +152,8 @@ return [
     
     'see_more' => 'Lihat Selengkapnya',
     'firm_news' => 'Berita Firma',
+    'partners' => 'Partners',
+    'associates' => 'Associates',
 
     
 ];

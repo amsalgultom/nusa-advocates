@@ -27,24 +27,48 @@
   <section id="team" class="team section">
     <div class="container">
       <div class="row gy-4">
+        
+        @php
+          $level = request('level');
+        @endphp
         @foreach($lawyers as $lawyer)
-        <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-          <div class="team-member d-flex align-items-start">
-            <div class="member-info">
-              <h4 class="color-gold">{{ $lawyer->name }}</h4>
-              <span>{{ $lawyer->level }}</span>
-              <p class="text-justify">
-                {!! nl2br(e($lawyer->description)) !!}
-                <!-- email -->
-                @if($lawyer->email)
-                <br><br>
-                <a href="mailto:{{ $lawyer->email }}"><i class="bi bi-envelope"></i> {{ $lawyer->email }}</a>
-                @endif
-              </p>
+          @if($level && $lawyer->level == $level)
+            <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <div class="team-member d-flex align-items-start">
+                <div class="member-info">
+                  <h4 class="color-gold">{{ $lawyer->name }}</h4>
+                  <span>{{ $lawyer->level }}</span>
+                  <p class="text-justify">
+                    {!! nl2br(e($lawyer->description)) !!}
+                    <!-- email -->
+                    @if($lawyer->email)
+                    <br><br>
+                    <a href="mailto:{{ $lawyer->email }}"><i class="bi bi-envelope"></i> {{ $lawyer->email }}</a>
+                    @endif
+                  </p>
+                </div>
+                <div class="pic"><img src="{{ asset('storage/lawyer') . '/' . $lawyer->image }}" class="img-fluid" alt=""></div>
+              </div>
             </div>
-            <div class="pic"><img src="{{ asset('storage/lawyer') . '/' . $lawyer->image }}" class="img-fluid" alt=""></div>
-          </div>
-        </div>
+          @elseif(!$level)
+          <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <div class="team-member d-flex align-items-start">
+                <div class="member-info">
+                  <h4 class="color-gold">{{ $lawyer->name }}</h4>
+                  <span>{{ $lawyer->level }}</span>
+                  <p class="text-justify">
+                    {!! nl2br(e($lawyer->description)) !!}
+                    <!-- email -->
+                    @if($lawyer->email)
+                    <br><br>
+                    <a href="mailto:{{ $lawyer->email }}"><i class="bi bi-envelope"></i> {{ $lawyer->email }}</a>
+                    @endif
+                  </p>
+                </div>
+                <div class="pic"><img src="{{ asset('storage/lawyer') . '/' . $lawyer->image }}" class="img-fluid" alt=""></div>
+              </div>
+            </div>
+          @endif
         @endforeach
 
         <!-- <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">

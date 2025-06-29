@@ -51,35 +51,46 @@
     </section> -->
 
 
-  <!-- <section id="faq-2" class="faq-2">
+  <section id="faq-2" class="faq-2">
 
     <div class="container section-title aos-init aos-animate" data-aos="fade-up">
-      <h2>@lang('messages.practice_area')</h2>
+      <h2>@lang('messages.news')</h2>
     </div>
 
     <div class="container">
 
       <div class="row justify-content-center">
-        <div class="col-lg-10">
-          <div class="faq-container text-justify">
-
-            @foreach ($practices as $practice)
-            <div class="faq-item">
-              <h3>{{ $practice->name }}</h3>
-              <p class="mb-0">{{ $practice->description }}</p>
+        @foreach($news as $new)
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="featured-insights__tile promo-content-tile  ">
+              <a class="promo-content-link" href="{{ $new->link_redirect ? $new->link_redirect : '#' }}" target="_blank">
+                <div class="container-table">
+                  <div class="container-row ">
+                    <div class="content">
+                      <div class="content-meta-header">
+                        <div class="content-type-label text-uppercase">
+                          {{ __('messages.' . $new->type) }}  {{ $new->date ? '| ' . date('d F Y', strtotime($new->date )) : '' }} {{ $new->category ? '| ' . $new->category : '' }}
+                        </div>
+                      </div>
+                      <div class="content-headline">
+                        {!! $new->title !!}
+                      </div>
+                      <div class="content-summary">
+                        {!! $new->short_desc !!}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
-            @endforeach
-
-
           </div>
-
-        </div>
+        @endforeach
 
       </div>
 
     </div>
 
-  </section> -->
+  </section>
 
 </main><!-- End #main -->
 @endsection

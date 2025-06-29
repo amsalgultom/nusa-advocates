@@ -48,7 +48,7 @@ return [
     
     'practice_area' => 'Our Services',
 
-    'principal_lawyer' => 'Our Core Team',
+    'principal_lawyer' => 'Our Teams',
 
     'partnership' => 'Partnership',
 
@@ -159,6 +159,8 @@ return [
 
     'see_more' => 'See More',
     'firm_news' => 'Firm News',
+    'partners' => 'Partners',
+    'associates' => 'Associates',
 
 ];
 ?>
