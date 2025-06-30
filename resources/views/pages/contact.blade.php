@@ -67,7 +67,7 @@
 
 @push('after_footer')
 <ul>
-    <h4 class="mb-2 p-0">Japan Collaborating Law Firm</h4>
+    <h4 class="mb-2 p-0">@lang('messages.contact_japan_title')</h4>
     <h4 class="mb-0 p-0">Nexel Partners</h4>
     <li class="mb-0 p-0">Mita-Kokusai Bldg. 22F, 1-4-28, Mita, Minato-ku <br> Tokyo 108-0073 Japan</li>
     <li class="mb-0 p-0">Tel : 03-5427-5830 (representative)</li>
