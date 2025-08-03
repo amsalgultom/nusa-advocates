@@ -72,6 +72,7 @@
     <li class="mb-0 p-0">Mita-Kokusai Bldg. 22F, 1-4-28, Mita, Minato-ku <br> Tokyo 108-0073 Japan</li>
     <li class="mb-0 p-0">Tel : 03-5427-5830 (representative)</li>
     <li class="mb-0 p-0">Fax : 03-5427-5832</li>
+    <li class="mb-0 p-0">Web :&nbsp;<a href="https://nslaw.org/ " target="_blank" rel="noopener noreferrer">nslaw.org</a></li>
 </ul>
     @endpush
 

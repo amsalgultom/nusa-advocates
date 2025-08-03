@@ -69,7 +69,8 @@
                     <div class="content">
                       <div class="content-meta-header">
                         <div class="content-type-label text-uppercase">
-                          {{ __('messages.' . $new->type) }}  {{ $new->date ? '| ' . date('d F Y', strtotime($new->date )) : '' }} {{ $new->category ? '| ' . $new->category : '' }}
+                          @php $lang = app()->getLocale(); @endphp
+                          {{ __('messages.' . $new->type) }}  {{ $new->date ? '| ' . \Carbon\Carbon::parse($new->date)->locale($lang)->translatedFormat('d F Y') : '' }} {{ $new->category ? '| ' . $new->category : '' }}
                         </div>
                       </div>
                       <div class="content-headline">
