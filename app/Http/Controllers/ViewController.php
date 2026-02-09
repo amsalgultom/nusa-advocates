@@ -62,7 +62,7 @@ class ViewController extends Controller
         $lang = app()->getLocale();
         $practices = PracticeArea::select('name', 'description')
             ->where('lang', $lang)
-            ->orderBy('name', 'asc')
+            ->orderBy('no', 'asc')
             ->get();
         return view('pages.practice_area', compact('practices'));
     }
