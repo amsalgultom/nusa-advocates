@@ -114,7 +114,7 @@ class ViewController extends Controller
 
     public function career()
     {
-        $careers = Career::all();
+        $careers = Career::orderBy('id', 'desc')->get();
         return view('pages.career', compact('careers'));
     }
 

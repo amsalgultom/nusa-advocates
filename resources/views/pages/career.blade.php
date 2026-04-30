@@ -49,7 +49,7 @@
   <section id="Nusa Advocates" class="Nusa Advocates mt-3">
     <div class="container">
       @foreach($careers as $career)
-      <div class="col-lg-4 col-md-4 col-12">
+      <div class="col-lg-4 col-md-4 col-4">
         <div class="featured-insights__tile promo-content-tile  ">
           <a class="promo-content-link" href="{{ $career->link_redirect ? $career->link_redirect : '#' }}" target="_blank">
             <div class="container-table">
