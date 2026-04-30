@@ -48,31 +48,33 @@
   </div> -->
   <section id="Nusa Advocates" class="Nusa Advocates mt-3">
     <div class="container">
-      @foreach($careers as $career)
-      <div class="col-lg-4 col-md-4 col-4">
-        <div class="featured-insights__tile promo-content-tile  ">
-          <a class="promo-content-link" href="{{ $career->link_redirect ? $career->link_redirect : '#' }}" target="_blank">
-            <div class="container-table">
-              <div class="container-row ">
-                <div class="content">
-                  <div class="content-meta-header">
-                    <div class="content-type-label text-uppercase">
-                      {{ __('messages.career') }} {{ $career->date ? '| ' . date('d F Y', strtotime($career->date )) : '' }}
+      <div class="row">
+        @foreach($careers as $career)
+        <div class="col-lg-4 col-md-4 col-4">
+          <div class="featured-insights__tile promo-content-tile  ">
+            <a class="promo-content-link" href="{{ $career->link_redirect ? $career->link_redirect : '#' }}" target="_blank">
+              <div class="container-table">
+                <div class="container-row ">
+                  <div class="content">
+                    <div class="content-meta-header">
+                      <div class="content-type-label text-uppercase">
+                        {{ __('messages.career') }} {{ $career->date ? '| ' . date('d F Y', strtotime($career->date )) : '' }}
+                      </div>
                     </div>
-                  </div>
-                  <div class="content-headline">
-                    {{ app()->getLocale() == 'en' ? $career->title_en : $career->title_id }}
-                  </div>
-                  <div class="content-summary">
-                    {!! app()->getLocale() == 'en' ? $career->description_en : $career->description_id !!}
+                    <div class="content-headline">
+                      {{ app()->getLocale() == 'en' ? $career->title_en : $career->title_id }}
+                    </div>
+                    <div class="content-summary">
+                      {!! app()->getLocale() == 'en' ? $career->description_en : $career->description_id !!}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
+        @endforeach
       </div>
-      @endforeach
     </div>
   </section>
 
