@@ -48,7 +48,7 @@
                                 <div class="col-md-5">
                                     <div class="mb-3">
                                         <label class="form-label">Short Description</label>
-                                        <textarea class="form-control" name="short_desc" rows="8" required></textarea>
+                                        <textarea class="form-control tinymce-editor" name="short_desc" rows="8" required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-7">
